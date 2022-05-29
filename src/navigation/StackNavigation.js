@@ -20,11 +20,6 @@ const RootStack = () => (
       headerStyle: styles.headerStyle,
       headerTitleStyle: styles.headerTitleStyle,
     }}>
-      <Stack.Screen
-        name={Routes.PAYMENT.name}
-        component={Payment}
-        options={{title: Routes.PAYMENT.title}}
-      />
     <Stack.Screen
       name={Routes.HOME.name}
       component={Home}
@@ -35,6 +30,11 @@ const RootStack = () => (
       component={Discover}
       options={{title: Routes.DISCOVER.title}}
     />    
+      <Stack.Screen
+        name={Routes.PAYMENT.name}
+        component={Payment}
+        options={{title: Routes.PAYMENT.title}}
+      />
   </Stack.Navigator>
 );
 
