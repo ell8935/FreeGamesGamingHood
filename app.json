@@ -1,4 +1,7 @@
 {
   "name": "freegamesreact",
-  "displayName": "freegamesreact"
+  "displayName": "freegamesreact",
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-9241365319577247~5384089045"
+  }
 }

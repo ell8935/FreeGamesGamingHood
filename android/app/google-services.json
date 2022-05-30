@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "703711400141",
+    "project_id": "gaminghood",
+    "storage_bucket": "gaminghood.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:703711400141:android:c8c149f445d9b08a281984",
+        "android_client_info": {
+          "package_name": "com.freegamesreact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "703711400141-ktfrtiiiu6itp9hl7i0cvnde3q8l8ccs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCavydGRP9R--vZ3MsIzY01X6yI4ANZwnQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "703711400141-ktfrtiiiu6itp9hl7i0cvnde3q8l8ccs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
