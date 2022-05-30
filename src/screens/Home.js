@@ -11,17 +11,31 @@ import {IMAGES} from '../assests';
 import {CustomButton} from '../components';
 import {Routes} from '../navigation';
 import {COLORS} from '../styles';
+import {
+  GAMBannerAd,
+  BannerAdSize,
+  TestIds,
+} from 'react-native-google-mobile-ads';
+
+const adUnitId = __DEV__ ? TestIds.GAM_BANNER : '/xxx/yyyy';
 
 const Home = ({navigation}) => {
   const {navigate} = navigation;
   const handleNavigate = route => navigate(route);
-
   return (
     <View style={styles.container}>
+      <GAMBannerAd
+        unitId={'ca-app-pub-9241365319577247/4617802283'}
+        sizes={[BannerAdSize.FULL_BANNER]}
+        requestOptions={{
+          requestNonPersonalizedAdsOnly: true,
+        }}
+      />
       <Image source={IMAGES.Logo} style={styles.logo} />
       <Text></Text>
       <View>
         <CustomButton title="Premmium" />
+        <CustomButton title="Test" />
         <CustomButton
           title="Discover"
           onPress={() => navigate(Routes.DISCOVER.name)}
