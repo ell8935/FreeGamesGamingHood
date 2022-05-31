@@ -25,10 +25,10 @@ const Home = ({navigation}) => {
   return (
     <View style={styles.container}>
       <GAMBannerAd
-        unitId={'ca-app-pub-9241365319577247/4617802283'}
+        unitId={'ca-app-pub-9241365319577247/4617802283'} // my banner ca-app-pub-9241365319577247/4617802283   (ca-app-pub-3940256099942544/6300978111  this is test banner)
         sizes={[BannerAdSize.FULL_BANNER]}
         requestOptions={{
-          requestNonPersonalizedAdsOnly: true,
+          requestNonPersonalizedAdsOnly: false,
         }}
       />
       <Image source={IMAGES.Logo} style={styles.logo} />
